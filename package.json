@@ -46,6 +46,8 @@
     "lint-staged": "catalog:cli",
     "publint": "catalog:cli",
     "simple-git-hooks": "catalog:cli",
+    "skills": "catalog:",
+    "skills-manifest": "catalog:",
     "tinyexec": "catalog:testing",
     "tsdown": "catalog:cli",
     "tsx": "catalog:cli",
