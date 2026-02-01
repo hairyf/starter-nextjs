@@ -36,6 +36,7 @@
     "@types/node": "catalog:types",
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
+    "baseline-browser-mapping": "catalog:",
     "eslint": "catalog:cli",
     "eslint-plugin-react-hooks": "catalog:",
     "eslint-plugin-react-refresh": "catalog:",
@@ -43,12 +44,9 @@
     "simple-git-hooks": "catalog:cli",
     "skills": "catalog:",
     "skills-manifest": "catalog:",
-    "tinyexec": "catalog:testing",
-    "tsx": "catalog:cli",
     "typescript": "catalog:cli",
     "vite": "catalog:cli",
     "vitest": "catalog:testing",
-    "vitest-package-exports": "catalog:testing",
     "yaml": "catalog:testing"
   },
   "simple-git-hooks": {

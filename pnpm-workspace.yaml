@@ -3,8 +3,8 @@ catalogMode: prefer
 ignoreWorkspaceRootCheck: true
 
 shellEmulator: true
-trustPolicy: no-downgrade - esbuild - simple-git-hooks
 
+trustPolicy: no-downgrade - esbuild - simple-git-hooks
 packages:
   - playground
   - docs
@@ -15,6 +15,7 @@ catalog:
   '@next/eslint-plugin-next': ^16.1.6
   '@types/react': ^19.2.10
   '@types/react-dom': ^19.2.3
+  baseline-browser-mapping: ^2.9.19
   eslint-plugin-react-hooks: ^7.0.1
   eslint-plugin-react-refresh: ^0.4.26
   next: ^16.1.6
@@ -22,7 +23,6 @@ catalog:
   react-dom: ^19.2.4
   skills: ^1.3.1
   skills-manifest: ^0.2.1
-
 catalogs:
   cli:
     '@antfu/eslint-config': ^7.2.0
@@ -30,17 +30,13 @@ catalogs:
     eslint: ^9.39.2
     lint-staged: ^16.2.7
     simple-git-hooks: ^2.13.1
-    tsx: ^4.21.0
     typescript: ^5.9.3
     vite: ^7.2.7
   testing:
-    tinyexec: ^1.0.2
     vitest: ^4.0.15
-    vitest-package-exports: ^0.1.1
     yaml: ^2.8.2
   types:
     '@types/node': ^25.0.1
-
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
